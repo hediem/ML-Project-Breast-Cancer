@@ -1,0 +1,5 @@
+داده ها imbalance شده و 
+داده bare با میانگین  در کلاس رکورد جایگذاری شده
+Number of rules: 0
+
+Number of rules: 0

@@ -1,0 +1,56 @@
+|--- Uniformity_of_Cell_Shape <= 3.50
+|   |--- Bare_Nuclei <= 5.50
+|   |   |--- Single_Epithelial_Cell_Size <= 3.50
+|   |   |   |--- class: 0.0
+|   |   |--- Single_Epithelial_Cell_Size >  3.50
+|   |   |   |--- Uniformity_of_Cell_Shape <= 2.50
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- Uniformity_of_Cell_Shape >  2.50
+|   |   |   |   |--- class: 1.0
+|   |--- Bare_Nuclei >  5.50
+|   |   |--- Bland_Chromatin <= 4.00
+|   |   |   |--- Marginal_Adhesion <= 4.50
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- Marginal_Adhesion >  4.50
+|   |   |   |   |--- class: 0.0
+|   |   |--- Bland_Chromatin >  4.00
+|   |   |   |--- class: 1.0
+|--- Uniformity_of_Cell_Shape >  3.50
+|   |--- Uniformity_of_Cell_Size <= 2.50
+|   |   |--- Bare_Nuclei <= 6.00
+|   |   |   |--- class: 0.0
+|   |   |--- Bare_Nuclei >  6.00
+|   |   |   |--- class: 1.0
+|   |--- Uniformity_of_Cell_Size >  2.50
+|   |   |--- Uniformity_of_Cell_Shape <= 6.50
+|   |   |   |--- Bare_Nuclei <= 9.50
+|   |   |   |   |--- Clump_Thickness <= 6.50
+|   |   |   |   |   |--- Marginal_Adhesion <= 7.00
+|   |   |   |   |   |   |--- Bland_Chromatin <= 8.50
+|   |   |   |   |   |   |   |--- Mitoses <= 5.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- Mitoses >  5.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- Bland_Chromatin >  8.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Marginal_Adhesion >  7.00
+|   |   |   |   |   |   |--- Uniformity_of_Cell_Shape <= 5.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- Uniformity_of_Cell_Shape >  5.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Clump_Thickness >  6.50
+|   |   |   |   |   |--- Bare_Nuclei <= 2.50
+|   |   |   |   |   |   |--- Marginal_Adhesion <= 3.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Marginal_Adhesion >  3.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Bare_Nuclei >  2.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Bare_Nuclei >  9.50
+|   |   |   |   |--- class: 1.0
+|   |   |--- Uniformity_of_Cell_Shape >  6.50
+|   |   |   |--- class: 1.0
+
+Number of rules: 2
+
+Number of rules: 52

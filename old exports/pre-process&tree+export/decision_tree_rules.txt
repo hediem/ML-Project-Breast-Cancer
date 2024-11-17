@@ -1,0 +1,83 @@
+|--- Uniformity of Cell Shape <= 3.50
+|   |--- Bare Nuclei <= 5.50
+|   |   |--- Normal Nucleoli <= 3.50
+|   |   |   |--- Single Epithelial Cell Size <= 5.50
+|   |   |   |   |--- Bare Nuclei <= 3.77
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Bare Nuclei >  3.77
+|   |   |   |   |   |--- Clump Thickness <= 5.50
+|   |   |   |   |   |   |--- Single Epithelial Cell Size <= 1.50
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- Single Epithelial Cell Size >  1.50
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Clump Thickness >  5.50
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |--- Single Epithelial Cell Size >  5.50
+|   |   |   |   |--- Clump Thickness <= 4.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Clump Thickness >  4.50
+|   |   |   |   |   |--- class: 4
+|   |   |--- Normal Nucleoli >  3.50
+|   |   |   |--- Clump Thickness <= 4.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- Clump Thickness >  4.50
+|   |   |   |   |--- class: 4
+|   |--- Bare Nuclei >  5.50
+|   |   |--- Bland Chromatin <= 4.00
+|   |   |   |--- Marginal Adhesion <= 4.50
+|   |   |   |   |--- class: 4
+|   |   |   |--- Marginal Adhesion >  4.50
+|   |   |   |   |--- class: 2
+|   |   |--- Bland Chromatin >  4.00
+|   |   |   |--- class: 4
+|--- Uniformity of Cell Shape >  3.50
+|   |--- Bare Nuclei <= 1.50
+|   |   |--- Marginal Adhesion <= 3.50
+|   |   |   |--- Mitoses <= 2.00
+|   |   |   |   |--- class: 2
+|   |   |   |--- Mitoses >  2.00
+|   |   |   |   |--- class: 4
+|   |   |--- Marginal Adhesion >  3.50
+|   |   |   |--- class: 4
+|   |--- Bare Nuclei >  1.50
+|   |   |--- Bare Nuclei <= 8.50
+|   |   |   |--- Clump Thickness <= 6.50
+|   |   |   |   |--- Clump Thickness <= 5.50
+|   |   |   |   |   |--- Uniformity of Cell Shape <= 5.50
+|   |   |   |   |   |   |--- Marginal Adhesion <= 7.00
+|   |   |   |   |   |   |   |--- Bare Nuclei <= 6.50
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- Bare Nuclei >  6.50
+|   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- Marginal Adhesion >  7.00
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Uniformity of Cell Shape >  5.50
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- Clump Thickness >  5.50
+|   |   |   |   |   |--- Bland Chromatin <= 7.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Bland Chromatin >  7.50
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |--- Clump Thickness >  6.50
+|   |   |   |   |--- Uniformity of Cell Shape <= 4.50
+|   |   |   |   |   |--- Single Epithelial Cell Size <= 3.50
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Single Epithelial Cell Size >  3.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Uniformity of Cell Shape >  4.50
+|   |   |   |   |   |--- class: 4
+|   |   |--- Bare Nuclei >  8.50
+|   |   |   |--- Bland Chromatin <= 3.50
+|   |   |   |   |--- Normal Nucleoli <= 2.50
+|   |   |   |   |   |--- Single Epithelial Cell Size <= 6.00
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Single Epithelial Cell Size >  6.00
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Normal Nucleoli >  2.50
+|   |   |   |   |   |--- class: 4
+|   |   |   |--- Bland Chromatin >  3.50
+|   |   |   |   |--- class: 4
+
+Number of rules: 2
+
+Number of rules: 79

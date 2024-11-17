@@ -1,0 +1,26 @@
+|--- Uniformity_of_Cell_Size <= 2.50
+|   |--- Bare_Nuclei <= 5.50
+|   |   |--- Clump_Thickness <= 6.50
+|   |   |   |--- value: [-1.51]
+|   |   |--- Clump_Thickness >  6.50
+|   |   |   |--- value: [1.42]
+|   |--- Bare_Nuclei >  5.50
+|   |   |--- Clump_Thickness <= 2.50
+|   |   |   |--- value: [-1.53]
+|   |   |--- Clump_Thickness >  2.50
+|   |   |   |--- value: [2.89]
+|--- Uniformity_of_Cell_Size >  2.50
+|   |--- Bare_Nuclei <= 1.50
+|   |   |--- Marginal_Adhesion <= 2.50
+|   |   |   |--- value: [-1.53]
+|   |   |--- Marginal_Adhesion >  2.50
+|   |   |   |--- value: [2.16]
+|   |--- Bare_Nuclei >  1.50
+|   |   |--- Clump_Thickness <= 4.50
+|   |   |   |--- value: [1.89]
+|   |   |--- Clump_Thickness >  4.50
+|   |   |   |--- value: [2.73]
+
+Number of rules: 2
+
+Number of rules: 22

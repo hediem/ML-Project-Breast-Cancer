@@ -1,0 +1,26 @@
+|--- Uniformity_of_Cell_Shape <= 3.50
+|   |--- Bare_Nuclei <= 5.50
+|   |   |--- Normal_Nucleoli <= 3.50
+|   |   |   |--- value: [-1.51]
+|   |   |--- Normal_Nucleoli >  3.50
+|   |   |   |--- value: [1.36]
+|   |--- Bare_Nuclei >  5.50
+|   |   |--- Bland_Chromatin <= 4.00
+|   |   |   |--- value: [1.72]
+|   |   |--- Bland_Chromatin >  4.00
+|   |   |   |--- value: [2.81]
+|--- Uniformity_of_Cell_Shape >  3.50
+|   |--- Bare_Nuclei <= 1.67
+|   |   |--- Single_Epithelial_Cell_Size <= 3.50
+|   |   |   |--- value: [-1.55]
+|   |   |--- Single_Epithelial_Cell_Size >  3.50
+|   |   |   |--- value: [1.36]
+|   |--- Bare_Nuclei >  1.67
+|   |   |--- Uniformity_of_Cell_Shape <= 4.50
+|   |   |   |--- value: [2.08]
+|   |   |--- Uniformity_of_Cell_Shape >  4.50
+|   |   |   |--- value: [2.74]
+
+Number of rules: 2
+
+Number of rules: 22

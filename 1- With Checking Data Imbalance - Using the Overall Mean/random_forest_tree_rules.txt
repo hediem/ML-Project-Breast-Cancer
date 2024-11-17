@@ -1,0 +1,74 @@
+|--- Uniformity_of_Cell_Shape <= 2.50
+|   |--- Bare_Nuclei <= 5.50
+|   |   |--- Uniformity_of_Cell_Size <= 6.50
+|   |   |   |--- Uniformity_of_Cell_Shape <= 1.50
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- Uniformity_of_Cell_Shape >  1.50
+|   |   |   |   |--- Bare_Nuclei <= 3.93
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bare_Nuclei >  3.93
+|   |   |   |   |   |--- Bare_Nuclei <= 4.66
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Bare_Nuclei >  4.66
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |--- Uniformity_of_Cell_Size >  6.50
+|   |   |   |--- class: 1.0
+|   |--- Bare_Nuclei >  5.50
+|   |   |--- Bland_Chromatin <= 4.00
+|   |   |   |--- Bare_Nuclei <= 8.00
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- Bare_Nuclei >  8.00
+|   |   |   |   |--- class: 0.0
+|   |   |--- Bland_Chromatin >  4.00
+|   |   |   |--- class: 1.0
+|--- Uniformity_of_Cell_Shape >  2.50
+|   |--- Bland_Chromatin <= 2.50
+|   |   |--- Bare_Nuclei <= 4.08
+|   |   |   |--- Bare_Nuclei <= 2.50
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- Bare_Nuclei >  2.50
+|   |   |   |   |--- Bare_Nuclei <= 3.27
+|   |   |   |   |   |--- Marginal_Adhesion <= 1.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Marginal_Adhesion >  1.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bare_Nuclei >  3.27
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- Bare_Nuclei >  4.08
+|   |   |   |--- class: 1.0
+|   |--- Bland_Chromatin >  2.50
+|   |   |--- Bare_Nuclei <= 2.25
+|   |   |   |--- Uniformity_of_Cell_Shape <= 3.50
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- Uniformity_of_Cell_Shape >  3.50
+|   |   |   |   |--- Single_Epithelial_Cell_Size <= 4.50
+|   |   |   |   |   |--- Bland_Chromatin <= 3.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- Bland_Chromatin >  3.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Single_Epithelial_Cell_Size >  4.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- Bare_Nuclei >  2.25
+|   |   |   |--- Mitoses <= 1.50
+|   |   |   |   |--- Bland_Chromatin <= 4.50
+|   |   |   |   |   |--- Normal_Nucleoli <= 3.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Normal_Nucleoli >  3.50
+|   |   |   |   |   |   |--- Single_Epithelial_Cell_Size <= 6.50
+|   |   |   |   |   |   |   |--- Single_Epithelial_Cell_Size <= 4.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- Single_Epithelial_Cell_Size >  4.50
+|   |   |   |   |   |   |   |   |--- Marginal_Adhesion <= 1.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- Marginal_Adhesion >  1.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- Single_Epithelial_Cell_Size >  6.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bland_Chromatin >  4.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Mitoses >  1.50
+|   |   |   |   |--- class: 1.0
+
+Number of rules: 2
+
+Number of rules: 70

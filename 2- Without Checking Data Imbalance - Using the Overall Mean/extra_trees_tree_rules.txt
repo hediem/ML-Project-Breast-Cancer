@@ -1,0 +1,107 @@
+|--- Bare_Nuclei <= 2.65
+|   |--- Marginal_Adhesion <= 5.16
+|   |   |--- Marginal_Adhesion <= 3.22
+|   |   |   |--- Uniformity_of_Cell_Size <= 8.82
+|   |   |   |   |--- Normal_Nucleoli <= 5.38
+|   |   |   |   |   |--- Normal_Nucleoli <= 3.40
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- Normal_Nucleoli >  3.40
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Normal_Nucleoli >  5.38
+|   |   |   |   |   |--- Bare_Nuclei <= 1.30
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- Bare_Nuclei >  1.30
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Uniformity_of_Cell_Size >  8.82
+|   |   |   |   |--- class: 1.0
+|   |   |--- Marginal_Adhesion >  3.22
+|   |   |   |--- Bland_Chromatin <= 9.30
+|   |   |   |   |--- Uniformity_of_Cell_Shape <= 2.92
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Uniformity_of_Cell_Shape >  2.92
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Bland_Chromatin >  9.30
+|   |   |   |   |--- class: 1.0
+|   |--- Marginal_Adhesion >  5.16
+|   |   |--- Bland_Chromatin <= 1.47
+|   |   |   |--- class: 0.0
+|   |   |--- Bland_Chromatin >  1.47
+|   |   |   |--- class: 1.0
+|--- Bare_Nuclei >  2.65
+|   |--- Uniformity_of_Cell_Shape <= 4.47
+|   |   |--- Clump_Thickness <= 5.16
+|   |   |   |--- Uniformity_of_Cell_Size <= 4.46
+|   |   |   |   |--- Normal_Nucleoli <= 5.47
+|   |   |   |   |   |--- Single_Epithelial_Cell_Size <= 4.58
+|   |   |   |   |   |   |--- Marginal_Adhesion <= 2.59
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Marginal_Adhesion >  2.59
+|   |   |   |   |   |   |   |--- Uniformity_of_Cell_Shape <= 2.60
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- Uniformity_of_Cell_Shape >  2.60
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Single_Epithelial_Cell_Size >  4.58
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Normal_Nucleoli >  5.47
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Uniformity_of_Cell_Size >  4.46
+|   |   |   |   |--- class: 1.0
+|   |   |--- Clump_Thickness >  5.16
+|   |   |   |--- Uniformity_of_Cell_Shape <= 2.51
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- Uniformity_of_Cell_Shape >  2.51
+|   |   |   |   |--- Marginal_Adhesion <= 8.84
+|   |   |   |   |   |--- Mitoses <= 3.51
+|   |   |   |   |   |   |--- Uniformity_of_Cell_Shape <= 3.10
+|   |   |   |   |   |   |   |--- Marginal_Adhesion <= 2.49
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- Marginal_Adhesion >  2.49
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Uniformity_of_Cell_Shape >  3.10
+|   |   |   |   |   |   |   |--- Uniformity_of_Cell_Size <= 4.19
+|   |   |   |   |   |   |   |   |--- Bland_Chromatin <= 6.21
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- Bland_Chromatin >  6.21
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- Uniformity_of_Cell_Size >  4.19
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Mitoses >  3.51
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Marginal_Adhesion >  8.84
+|   |   |   |   |   |--- class: 1.0
+|   |--- Uniformity_of_Cell_Shape >  4.47
+|   |   |--- Bland_Chromatin <= 5.12
+|   |   |   |--- Clump_Thickness <= 3.71
+|   |   |   |   |--- Bare_Nuclei <= 5.07
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bare_Nuclei >  5.07
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Clump_Thickness >  3.71
+|   |   |   |   |--- Clump_Thickness <= 6.60
+|   |   |   |   |   |--- Marginal_Adhesion <= 1.61
+|   |   |   |   |   |   |--- Normal_Nucleoli <= 7.20
+|   |   |   |   |   |   |   |--- Normal_Nucleoli <= 4.45
+|   |   |   |   |   |   |   |   |--- Bare_Nuclei <= 8.35
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- Bare_Nuclei >  8.35
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- Normal_Nucleoli >  4.45
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Normal_Nucleoli >  7.20
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Marginal_Adhesion >  1.61
+|   |   |   |   |   |   |--- Bare_Nuclei <= 3.89
+|   |   |   |   |   |   |   |--- Clump_Thickness <= 4.56
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- Clump_Thickness >  4.56
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- Bare_Nuclei >  3.89
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Clump_Thickness >  6.60
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- Bland_Chromatin >  5.12
+|   |   |   |--- class: 1.0
+
+Number of rules: 2
+
+Number of rules: 103

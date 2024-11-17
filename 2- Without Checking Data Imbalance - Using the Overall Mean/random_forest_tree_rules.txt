@@ -1,0 +1,62 @@
+|--- Uniformity_of_Cell_Shape <= 2.50
+|   |--- Bare_Nuclei <= 5.50
+|   |   |--- Uniformity_of_Cell_Size <= 7.00
+|   |   |   |--- Single_Epithelial_Cell_Size <= 2.50
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- Single_Epithelial_Cell_Size >  2.50
+|   |   |   |   |--- Bland_Chromatin <= 3.50
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bland_Chromatin >  3.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- Uniformity_of_Cell_Size >  7.00
+|   |   |   |--- class: 1.0
+|   |--- Bare_Nuclei >  5.50
+|   |   |--- class: 1.0
+|--- Uniformity_of_Cell_Shape >  2.50
+|   |--- Bare_Nuclei <= 3.77
+|   |   |--- Bland_Chromatin <= 4.50
+|   |   |   |--- Normal_Nucleoli <= 1.50
+|   |   |   |   |--- Clump_Thickness <= 7.50
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Clump_Thickness >  7.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Normal_Nucleoli >  1.50
+|   |   |   |   |--- Uniformity_of_Cell_Shape <= 4.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Uniformity_of_Cell_Shape >  4.50
+|   |   |   |   |   |--- Marginal_Adhesion <= 5.50
+|   |   |   |   |   |   |--- Normal_Nucleoli <= 6.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Normal_Nucleoli >  6.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Marginal_Adhesion >  5.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |--- Bland_Chromatin >  4.50
+|   |   |   |--- Uniformity_of_Cell_Shape <= 3.50
+|   |   |   |   |--- Bare_Nuclei <= 2.50
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- Bare_Nuclei >  2.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Uniformity_of_Cell_Shape >  3.50
+|   |   |   |   |--- class: 1.0
+|   |--- Bare_Nuclei >  3.77
+|   |   |--- Bare_Nuclei <= 8.50
+|   |   |   |--- Bland_Chromatin <= 3.50
+|   |   |   |   |--- Uniformity_of_Cell_Size <= 6.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- Uniformity_of_Cell_Size >  6.50
+|   |   |   |   |   |--- Single_Epithelial_Cell_Size <= 5.50
+|   |   |   |   |   |   |--- Clump_Thickness <= 6.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- Clump_Thickness >  6.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- Single_Epithelial_Cell_Size >  5.50
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- Bland_Chromatin >  3.50
+|   |   |   |   |--- class: 1.0
+|   |   |--- Bare_Nuclei >  8.50
+|   |   |   |--- class: 1.0
+
+Number of rules: 2
+
+Number of rules: 58

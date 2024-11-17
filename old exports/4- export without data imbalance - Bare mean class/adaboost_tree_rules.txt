@@ -1,0 +1,8 @@
+|--- Uniformity_of_Cell_Shape <= 3.50
+|   |--- class: 0
+|--- Uniformity_of_Cell_Shape >  3.50
+|   |--- class: 1
+
+Number of rules: 2
+
+Number of rules: 4
