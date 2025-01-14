@@ -59,8 +59,8 @@ def plot_confusion_matrix(cm, labels):
     plt.show()
 
 # Example usage
-file_path = 'D:\\University\\Semester 3\\Applied Machine Learning\\Practice2\\12- export with out data imbalance - Bare knn - train 70 test 30 classes\\model_results.json'  # Replace with the actual path to your JSON file
-algorithm_name = 'GradientBoosting'  # Change to the desired algorithm name
+file_path = 'D:\\University\\Semester 3\\Applied Machine Learning\\Practice2\\ML-Project-Breast-Cancer\\results\\Ensemble\\3- Ensemble Methods - With Checking Data Imbalance - Using Class-Wise Mean\\ensemble_model_results.json'  # Replace with the actual path to your JSON file
+algorithm_name = 'Bagging Ensemble'  # Change to the desired algorithm name
 
 # Load data
 data = load_json_data(file_path)
