@@ -1,0 +1,23 @@
+{
+    "Metrics": [
+        {
+            "Accuracy": 0.9619047619047619,
+            "Recall": 0.9722222222222222,
+            "Precision": 0.9210526315789473,
+            "F1 Score": 0.9459459459459459,
+            "ROC AUC": 0.9830917874396137
+        }
+    ],
+    "Aggregated": {
+        "Average Accuracy": 0.9619047619047619,
+        "Std Accuracy": 0.0,
+        "Average Recall": 0.9722222222222222,
+        "Std Recall": 0.0,
+        "Average Precision": 0.9210526315789473,
+        "Std Precision": 0.0,
+        "Average F1 Score": 0.9459459459459459,
+        "Std F1 Score": 0.0,
+        "Average ROC AUC": 0.9830917874396137,
+        "Std ROC AUC": 0.0
+    }
+}
